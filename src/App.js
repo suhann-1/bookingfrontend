@@ -13,7 +13,7 @@ function App() {
       <Route path='/search'element={<Search/>}/>
       <Route path='/view'element={<Dlt/>}/>
     </Routes>
->    </BrowserRouter>
+   </BrowserRouter>
   );
 }
 

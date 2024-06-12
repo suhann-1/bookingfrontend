@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Nav from './Nav'
 
 const Add = () => {
     const [data,changeData]=useState({
@@ -10,7 +11,7 @@ const Add = () => {
         "to":"",
         "date":""
     })
-    constinputHandler=(event)=>{
+    const inputHandler=(event)=>{
         changeData({...data,[event.target.name]:event.target.value})
     }
     const readValue=()=>{
